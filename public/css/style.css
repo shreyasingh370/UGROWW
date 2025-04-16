@@ -1,0 +1,633 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+* {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+
+body {
+  background-color: #000;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* .nav-item{
+  font-weight: 900;
+  font-size: 100px;
+  color: #000;
+} */
+li,
+p,
+a {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+#main-text h1{
+  border-right: 5px solid grey;
+  width: 70%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 
+  typing 4s ,
+  cursor 4s linear infinite alternate;
+  animation-direction: alternate;
+}
+
+@keyframes cursor {
+  0%{
+      /* border-color: red; */
+      border-right: #000;
+  }   
+  100%{
+    
+    border-right: black;
+  } 
+  }
+  @keyframes typing {
+      from{width: 0;}
+      To{
+          width: 70%;
+          color: dodgerblue;
+      }
+  }
+
+  #main-text p{
+    border-right: 5px solid grey;
+    width: 70%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 4s ,
+    cursor 4s linear infinite alternate;
+    animation-direction: alternate;
+  }
+  
+  @keyframes cursor {
+    0%{
+        /* border-color: red; */
+        border-right: #000;
+    }   
+    100%{
+      
+      border-right: black;
+    } 
+    }
+    @keyframes typing {
+        from{width: 0;}
+        To{
+            width: 70%;
+            color: dodgerblue;
+        }
+    }
+
+#navbarSupportedContent {
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  /* background-color: #333; */
+  position: fixed; /* Set the navbar to fixed position */
+   /* Position the navbar at the top of the page */
+   top: 15px;
+  width: 90%; 
+}
+
+#navbarSupportedContent a{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+
+.navbar-style {
+  background-color: rgb(201, 160, 146);
+  box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04);
+}
+
+#logo {
+  display: initial;
+  border-bottom: 7px solid dodgerblue;
+  border-bottom-right-radius: 18px;
+  font-weight: 900;
+  font-family: cursive;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  color: white;
+
+  /* color: black; */
+  text-shadow: 2px 5px 3px dodgerblue;
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #525252;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+  font-size: 1.9rem;
+  /* font-weight: 800; */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fd5c63;
+  font-weight: 900;
+}
+
+/* our hero sections  */
+
+.hero-text h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-shadow: 5px 4px 11px dodgerblue;
+  letter-spacing: 1px;
+  color: grey;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+
+.hero-text h1:nth-child(1) {
+  font-weight: 800;
+  color: dodgerblue;
+}
+
+/* .hero-text h1:nth-child(1) {
+  font-weight: 800;
+  color:dodgerblue;
+} */
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-text p,
+.our-services p,
+label {
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  color: #777676;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+.hero-text p span {
+  font-weight: bold;
+  color: #000;
+}
+
+.btn-style {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 12px 25px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background: dodgerblue;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+/* about us style starts  */
+
+.about-style {
+  margin: 10rem 0;
+}
+
+.about-style .main-heading,
+.service-style .main-heading,
+.contact-style .main-heading {
+  font-size: 5rem;
+  color: #fd5c63;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  font-weight: 900;
+}
+
+.about-style .sub-heading,
+.service-style .sub-heading,
+.contact-style .sub-heading {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  line-height: 2;
+  color: #333;
+  font-weight: 500;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: cursive;
+  animation: about 10s infinite alternate ease-in-out;
+}
+
+@keyframes about {
+  0% {
+    color: whitesmoke;
+  }
+
+  25% {
+    color: #22dd73;
+  }
+
+  50% {
+    color: orange;
+  }
+
+  75% {
+    color: #5a57fb;
+  }
+
+  100% {
+    color: dodgerblue;
+  }
+}
+
+/* our services style starts  */
+
+.service-style {
+  margin-bottom: 10rem;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #000;
+  color: white;
+  box-shadow: 0 0 25px 0 dodgerblue;
+  border-radius: 35px;
+  border-radius: 50%;
+}
+
+.our-services {
+  margin-top: 75px;
+  padding-bottom: 30px;
+  padding: 0 30px;
+  min-height: 198px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: black;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+  border: 5px solid silver;
+}
+
+.our-services .icon {
+  margin-bottom: -21px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.our-services h4 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.our-services:hover h4,
+.our-services:hover p {
+  color: #fff;
+}
+
+.port:hover {
+  box-shadow: 0 0 25px 0 rgba(33, 39, 221, 0.2);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #f33474 0%, #f55b2a 50%);
+}
+
+.settings:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #49d0da 0%, #210c59 50%);
+}
+
+.fooddev:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #974eff 0%, #5a57fb 50%);
+}
+
+.travel:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #fd7f30 0%, #fdb642 50%);
+}
+
+/* .ssl:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #974eff 0%, #5a57fb 50%);
+}
+
+.database:hover {
+  box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 50%);
+} */
+/* our services style ends  */
+
+
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 130px; */
+  margin-top: 40px;
+  text-align: center;
+  /* color: dodgerblue; */
+}
+
+.map h1 {
+  font-size: 5rem;
+  /* color: #fd5c63; */
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.map p {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  line-height: 2;
+  color: #333;
+  font-weight: 500;
+}
+
+/* contact us starts here  */
+
+input {
+  max-width: 400px;
+}
+
+.contact-style {
+  margin: 10rem 0;
+}
+
+.form-text {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  line-height: 2;
+  color: grey;
+  font-weight: 900;
+
+}
+
+label {
+  padding-left: 5 px;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  color: #49d0da;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+.form-control {
+  padding: 1rem 0.5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+#emailHelp,
+::placeholder {
+  font-size: 1.5rem;
+}
+
+::placeholder {
+  font-weight: 600;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 130px; */
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 5rem;
+  /* color: #fd5c63; */
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  line-height: 2;
+  color: #333;
+  font-weight: 500;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 130px; */
+  margin-top: 20px;
+  text-align: left;
+  /* width: 90%; */
+}
+
+.btnn {
+  margin-top: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 12px 25px;
+  border: none;
+  color: #fff;
+  font-weight: 800;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background: dodgerblue;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.btnn:hover {
+  background-color: coral;
+  border: 3px solid dodgerblue;
+  color: white;
+}
+
+/* footer sections ends  */
+
+footer {
+  background: rgb(221, 217, 217);
+}
+
+footer p {
+  padding: 1rem 0;
+  margin: 0;
+  text-align: center;
+}
+
+
+.social {
+  /* height: 65px;
+  width: 65px; */
+  /* border: 5px soild red;
+   */
+  display: flex;
+  text-align: center;
+  /* border-top: 3px solid dodgerblue; */
+
+  /* flex-direction: column; */
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  /* margin-bottom: 40px; */
+
+  /* margin-inline:200px; */
+  /* margin: 10px; */
+}
+
+.social a {
+  margin-top: 15px;
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 25px;
+  background-color: aliceblue;
+  margin-inline: 10px;
+  /* text-align: left; */
+  /* justify-content: space-between; */
+  margin: 15px;
+  line-height: 60px;
+  /* box-shadow: 1px 4px 2px 2px grey; */
+  box-shadow: 0 0 0 8px gray;
+
+}
+
+.social a i {
+  transition: all 0.3s linear;
+}
+
+.social a:hover i {
+  transform: scale(1.2);
+  /* box-shadow: 0 0 0 5px dodgerblue; */
+
+}
+
+.fa-facebook {
+  color: rgb(65, 161, 239);
+}
+
+.fa-instagram {
+  color: #e84393;
+}
+
+.fa-twitter {
+  color: #0097e6;
+}
+
+.fa-linkedin {
+  color: #0097e6;
+}
+
+.copyRight p {
+  text-align: center;
+  background-color: black;
+  color: dodgerblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+/* media queries part starts here  */
+
+@media (max-width: 768px) {
+  #logo {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  figure {
+    margin: 5rem 0;
+  }
+
+  figure img {
+    min-width: 100%;
+  }
+
+  .hero-text p,
+  .our-services p,
+  label {
+    font-size: 1.5rem;
+  }
+
+  .about-style .sub-heading,
+  .service-style .sub-heading,
+  .contact-style .sub-heading {
+    font-size: 2rem;
+  }
+}
+
+.main_img{
+  /* border-radius: 50%; */
+  /* border: 5px solid dodgerblue; */
+  background-color: black;
+}
+.logoimg img{
+  height: 45px;
+  width: 50px;
+  background-color: cadetblue;
+}

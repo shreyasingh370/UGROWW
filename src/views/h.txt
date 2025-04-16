@@ -1,0 +1,63 @@
+<div class="container-fluid mt-5">
+<div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+        <h1 class="text-centre main-heading" style="color: dodgerblue; " id="about">Contact Us</h1>
+<p>You Can Contact Us Here</p>
+        <div class="row" >
+    <div class="col-md-6 col-12 ">
+        
+      <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+    </div>
+    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+      <figure>
+        <img src="images/growth.svg" alt="main_image" class="main_img">
+      </figure>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="copyRight">
+        <div class="social">
+            <!-- <div class="heading">
+                <h4>
+                    Social Media
+                </h4>
+            </div> -->
+            <a target="_blank">
+                <i class="fa fa-2x fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a target="_blank">
+                <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a target="_blank">
+                <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a target="_blank">
+                <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+            </a>
+        </div>
+        <p>
+            | Copyright © 2023 | All Rights Reserved.
+        </p>
+    </div>
